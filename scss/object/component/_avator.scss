@@ -1,0 +1,9 @@
+.c-avator {
+    height: auto;
+    border-radius: 50%;
+    @include mq('tab') {
+        width: 100%;
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,56 @@
+.p-portfolio {
+    @include section-padding-top;
+    padding-bottom: 56px;
+    text-align: center;
+    
+    &__categories {
+        margin-top: 40px;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    &__cards {
+        margin-top: 32px;
+        justify-content: center;
+        margin-right: -16px;
+    }
+    
+}
+
+.p-categories {
+    
+    &__item {
+  
+
+        &--active {
+            border-radius: 15px;
+            background-color: $color-accent;
+            padding: 0 8px;
+            line-height: 25px;
+            color: $color-light;
+            transition: .3s;
+        }
+    }
+}
+
+.p-cards__card {
+
+    margin-right: 16px;
+    margin-bottom: 16px;
+
+    cursor: pointer;
+
+    &:hover {
+        @include hover;
+    }
+
+    &__img {
+        width: 352px;
+        height: 235px;
+
+        @include mq('sp') {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

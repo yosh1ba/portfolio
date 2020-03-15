@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+    overflow:auto;
+}
+    
+
+body {
+    font-family: $font_family;
+    color: $color-font-dark;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.3rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+p , a {
+    -webkit-font-smoothing: antialiased;
+}
