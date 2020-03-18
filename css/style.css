@@ -696,7 +696,7 @@ a {
 
 .p-hero {
 	background-attachment: fixed;
-	background-image: url("/img/hero.jpg");
+	background-image: url("/img/hero.webp");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -894,9 +894,11 @@ a {
 }
 
 .p-cards__card {
+	-webkit-transition: .3s;
 	cursor: pointer;
 	margin-bottom: 16px;
 	margin-right: 16px;
+	transition: .3s;
 }
 
 .p-cards__card:hover {
