@@ -805,6 +805,10 @@ a {
 	color: #247397;
 }
 
+.p-modal__icon--wp {
+	color: #35495E;
+}
+
 .p-modal__icon--git,
 .p-modal__icon--nw,
 .p-modal__icon--sv,
