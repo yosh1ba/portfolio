@@ -805,8 +805,12 @@ a {
 	color: #247397;
 }
 
-.p-modal__icon--wp {
+.p-modal__icon--vue {
 	color: #35495E;
+}
+
+.p-modal__icon--laravel {
+	color: #FA7161;
 }
 
 .p-modal__icon--git,

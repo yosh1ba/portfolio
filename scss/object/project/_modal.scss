@@ -59,8 +59,11 @@
         &--wp {
             color: $color-wp;
         }
-        &--wp {
+        &--vue {
             color: $color-vue;
+        }
+        &--laravel {
+            color: $color-laravel;
         }
 
         &--git,&--nw,&--sv,&--hs {
